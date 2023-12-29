@@ -1,0 +1,25 @@
+article {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+
+    border-radius: 50%;
+    border-top: 20px solid red;
+    border-left: 20px solid green;
+    border-bottom: 20px solid blue;
+    border-right: 20px solid orange ;
+    transform: rotate(360);
+
+    animation-name: dog;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+   
+    @keyframes dog{
+        100%{
+            transform: rotate(360deg);
+        }
+        
+
+    }
